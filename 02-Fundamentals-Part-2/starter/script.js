@@ -22,3 +22,32 @@ function fruitBlender(apples, oranges) {
 }
 const appleJuice = fruitBlender(5, 2);
 console.log(appleJuice);
+
+const mixedJuice = fruitBlender(5, 8);
+console.log(mixedJuice);
+
+const orangeJuice = fruitBlender(0, 8);
+console.log(orangeJuice);
+
+
+//function declaration
+function calcAge1(birthYear) {
+    return 2025 - birthYear;
+}
+
+//funtion expression
+const age1 = calcAge1(1979);
+console.log(age1)
+
+const calcAge2 = function (birthYear) {
+    return 2046 - birthYear;
+}
+
+const age2 = calcAge2(1979)
+console.log(age2);
+
+//Arrow Function
+const calcAge3 = birthYear => 2045 - birthYear;
+
+const age3 = calcAge3(1979)
+console.log(age3);
