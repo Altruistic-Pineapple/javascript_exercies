@@ -54,6 +54,11 @@ function numberSubtracted(numb3r1, numb3r2) {
 }
 console.log(numberSubtracted(10, 5))
 
+function sentenceCreated(word1, word2) {
+    return word1 + word2
+}
+console.log(sentenceCreated("The", " Sopranos"))
+
 
 
 
